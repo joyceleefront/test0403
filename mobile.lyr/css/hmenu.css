@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Libre+Baskerville:wght@700&family=Noto+Sans+KR:wght@100;300&family=Rampart+One&family=Roboto+Slab:wght@500&family=Tilt+Warp&display=swap');
+
+*{box-sizing:  border-box;}
+
+a{text-decoration: none;}
+body{ margin: 0;
+     font-size: 1rem;
+     line-height: 1.5;
+     color: #333;
+     overflow-x: hidden;
+}
+
+.nana-header{height:100vh;
+            display: flex;
+            align-items: center; 
+            color:#fff;
+            justify-content: center;
+}
+
+.container{
+    width: 60%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+.fullscreen-nana-wrap{ 
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow:hidden;
+
+
+}
+
+
+.fullscreen-nana-wrap video{
+width: 100%;height: 1200px;object-fit: cover;position: fixed;left: 0;top: 0;
+}
+
+.header-overlay{
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #225470;
+    z-index: 1;
+    opacity: 0.76;}
+
+
+.header-content {z-index: 2;}
+
+.header-content h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+    color:#fff;text-align: center;
+    font-family: 'Asap', sans-serif;
+}
+
+
+
+.header-content p {padding:10px; width: 80%;
+    font-size:1rem;
+    display: block;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;}
+
+/*..................................................................................................................... */
+.hamberger{background: none; position: absolute;
+top: 0;left: 0;margin-top: 10px;
+line-height: 45px;padding: 0 15px 0 15px;color: #fff;border:0;
+font-size: 45px;font-weight: bold;
+cursor: pointer;outline: none;z-index: 10000;}
+
+.youtube{position: absolute;top: 0;right: 0;
+background: none;border: 0;cursor: pointer}
+.youtube img{width: 60px;margin-top: 10px;margin-right: 7px;}
+
+
+#header{height: 50px;position: relative;line-height: 50px;}
+#header h1{position: absolute; left: 0;}
+#header h1 a img{width: 50px;}
+#menu a{display: inline-block; margin-right: 10px;font-weight: bold;}
+#menu{text-align: right;}
+#menu button{border: none; background: none;vertical-align: middle;}
+button img{width: 60%;}
+/* ...........................................................header */
+
+.menu {width: 55%;height: 100%;position: fixed;left: 0;top:0;font-size:0.8rem;
+       font-weight: bold;background: #fff; left:-55%;
+        z-index: 100000;}
+        /* left:-75%;사이드 메뉴바 숨기기 위해서 */
+.head{height: 50px;background:rgb(52,179,160);line-height: 50px;}
+.head ul li{margin-right: 1rem;float: left;}
+
+.head ul li:last-child{margin-right: 0;}
+.fr{padding-left: 10px;}
+.head ul li.search{float: right;width: 10rem;
+              padding-top: 13px;text-align:right;}
+
+.search img{width: 55%;}
+.head a {color: #fff;}
+/* ..................................................................... */
+/* 직계 꺽쇠 > */
+.mm>li{padding: 20px 0;}
+.menu ul{padding: 0 10px 0;height: 100%;}
+.mm>li{padding: 15px 0;position: relative;text-indent: 20px;}
+.mm li img{position: absolute;right: 10px;top: 25px; width: 15px;}
+.mm li a{color:rgb(52,179,160);font-size: 20px;}
+.sub{text-align: center;display:none;padding: 0 15px;}
+.sub li a{padding: 3px 0;display: block;}
+.sub li{height: 40px;line-height: 40px; text-align: left;text-indent: 18px;}
+
+
+.site button{width: 100%;height: 37px;padding-left: 11px;
+    border-radius: 5px;border: 1px solid #fff;
+   background: transparent url(../img/brows.png)no-repeat 100% 0;
+   color:rgb(52,179,160);font-size: 15px ;letter-spacing: 6px;
+    text-align: center;font-family: 'Asap', sans-serif;
+   }
+
+
+/* .site button{width: 60%;height: 37px;padding-left: 11px;
+    border-radius: 5px;border: 1px solid #d1cecc;
+   background: transparent url(../img5/family_size_off.png)no-repeat 100% 0;
+   color:#fff;font-size: 15px ;letter-spacing: 6px; text-align: center;
+   box-shadow: 2px 2px 2px 0 rgba(234, 233,232,0.8);}
+ */
+
+
+
+
+/* .btn{display:inline-block; width: 300px;letter-spacing: 40px; text-align: center;
+    background: #34b3a0;
+    color: #fff;
+    font-size: 1.2rem;
+    padding:1rem;
+    border-radius: 20px;
+    text-decoration: none;
+    opacity: 0.55;
+
+}
+.section-a .container{height: 500px;}
+
+.section-b .container{height: 500px;}
+
+
+
+.section{width:70%; padding: 20px 0;}
+
+.section-b{background: #34b3a0;
+           color: #fff; 
+}
+.section-b .container h1{color:#ffff ;font-size: 1rem;
+    margin-bottom: 0;}
+
+p{} */
+@media(max-width:960px)
+{.body{padding-right: 3rem;
+            padding-left: 3rem;}}
+            /* 반응형 웹페이지 */
+

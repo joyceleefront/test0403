@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+*,*::after,::before{box-sizing:border-box ;}
+body{
+     background: url(/ffformtag/sea-g9e15fb2a6_1920.jpg) no-repeat center fixed;
+     background-size: cover;}
+
+     
+#join_mem{
+    width: 380px;height: 580px;
+    border:1px solid rgba(255, 255, 255, 0.4);
+    padding: 0px 5px;z-index: 99999;
+    background: rgba(255, 255, 255, 0.1);
+    /*  rgba(255, 255, 255, 0.1); 거의 불투명 */
+    position: absolute;left:50%; top: 50%;
+    transform:translate(-50%, -50%);}
+
+.header-overlay{
+        width: 100%;height: 100%;
+        position:fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        background:rgba(0,0,0,0.6);
+        z-index: 1;
+       }
+
+.close2{position: absolute;right: 0; cursor: pointer; background: transparent;
+       border: none;outline: none; font-size: 3rem;
+       width: 40px;height: 40px;color: #fff;}
+
+#join_mem img{width: 80px;display: block;margin: 0 auto;}
+
+
+#join_mem h2{margin:0 auto; color: #fff;text-align: center;}
+#join_mem label{display: block;padding-left:3px ;margin-bottom: 2px;
+                 color: #fff;}
+#id1{float: left;}
+#id2{float: left; margin-left: 10px;}
+#id3{clear: both; color: #fff;font-size: 0.6rem; font-weight: bold;}
+#join_mem form{margin: 20px 15px 0;}
+#join_mem input{display: inline-block;margin-bottom: 10px;
+            border: none; color: #fff;font-size: 1rem;line-height: 1rem;
+            width: 130px; background: transparent;border: 1px solid rgba(255,255,255,0.7);
+            padding: 3px 5px;}
+
+
+#button{margin-top:10px; text-align: center;}
+#button input{outline: none;border: none; background:rgb(52,179,160);cursor: pointer;
+              width: 90px; display: inline-block;color:#fff;
+            line-height: 1.4;border-radius: 10px;}
+#button input .btn{background: aqua;}
+#button input:hover{background:#fff;color:#000;}
+#ph,#email {width: 300px!important;}
+input:-webkit-input-placeholder{color: #fff;}
+
+/*  placeholder색 변경할때 꼭 -webkit-붙여줘야 한다
+nput::-webkit-input-placeholder*/

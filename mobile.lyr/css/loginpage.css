@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+*,*::after,::before{box-sizing:border-box ;}
+.fullscreen-nana-wrap{ 
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow:hidden;
+
+
+}
+
+
+.fullscreen-nana-wrap video{
+width: 100%;height: 1200px;object-fit: cover;position: fixed;left: 0;top: 0;
+}
+
+.header-overlay{
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #225470;
+    z-index: 1;
+    opacity: 0.76;}
+
+
+
+
+#join_mem{
+    width: 480px;height: 680px;
+    border:4px solid rgb(52, 179, 160);
+    padding: 0px 5px;z-index: 99999;
+    background: rgba(255, 255, 255, 0.1);
+    /*  rgba(255, 255, 255, 0.1); 거의 불투명 */
+    position: absolute;left:50%; top: 50%;
+    transform:translate(-50%, -50%);}
+
+
+.title_name{margin: 3rem 0; padding: 0 0 25px 0; text-align: center;}
+.title_name h1{color:#fff; font-size: 30px; text-transform: uppercase;
+    letter-spacing: 1px;}
+.title_name h2{color:#fff; font-size: 15px; text-transform: uppercase;
+letter-spacing: 1px; }
+.title_name img{width: 200px;}
+/* input이 인라인요소이다 */
+#cnt_form{width: 80%;margin:0 auto; text-align: center;}
+
+
+
+p{padding-bottom: 5px;font-weight: bold;}
+
+
+.form-control{display: block;width: 70% ; margin:1rem auto; height:34px;
+             padding: 6px 12px; appearance: none; font-size: 14px;
+             background: #fff;color: #555;
+             border: 1px solid #666;
+             border-color: transparent transparent #666 transparent;}
+
+             /* appearance: none 폼의 속성을 없애라 */
+.form-control:focus{outline: none;color: red;}
+/* 커서가 이 위치에 있을때 :focus가 이런 말이다 */
+.singin{margin-top:15px;text-align: center;}
+
+.singin input{outline: none; border: none; background:rgb(52,179,160);
+    cursor: pointer;
+    width: 205px; display: inline-block;color:#fff;
+     line-height: 2;border-radius: 5px;font-size: 20px;text-align: center;}
+
+#button{margin-top:15px;text-align: center;}
+
+#button input {outline: none; border: none; background:rgb(52,179,160);
+              cursor: pointer;
+              width: 100px; display: inline-block;color:#fff;
+               line-height: 1.4;border-radius: 5px;text-align: center;}
+
+#button input:hover{background:#fff;color:#000;}
+
+@media(max-width:960px)
+{.body{padding-right: 3rem;
+            padding-left: 3rem;}}
+
